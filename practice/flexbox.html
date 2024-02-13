@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexbox</title>
+    <style>
+      .header-2{
+        display: flex;
+        flex-flow: row;
+        margin-top: 12px;
+      }
+      .header-1{
+        display: flex;
+        flex-direction: row;
+
+      }
+
+      .box-1{
+        width: 200px;
+        background-color: lightblue;
+      }
+      .box-2{
+        width: 75px;
+        background-color: lightpink;
+      }
+      
+      .box-3{
+        width:50px;
+        background-color: lightblue;
+
+      }
+      .box-4{
+        flex:1;
+        background-color: lightpink;
+      }
+
+      .box-5{
+        width:75px;
+        background-color: lightblue;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="header-1">
+        <div class="box-1">200px</div>
+        <div class="box-2">75px</div>
+    </div>
+
+    <div class="header-2">
+      <div class="box-3">Item1</div>
+      <div class="box-4">Item2</div>
+      <div class="box-5">Item3</div>
+  </div>
+
+    
+  </body>
+</html>

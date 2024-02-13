@@ -1,0 +1,54 @@
+
+.internal{
+  display: flex;
+  flex-direction: row;
+  width:320px;
+  
+  align-items: center;
+  border: none;
+  box-shadow: 3px 3px 5px grey;
+  justify-content: space-between;
+  border-radius: 6px;
+
+  margin-top: 10px;
+}
+
+
+.profile-image{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.name{
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 0px;
+
+}
+
+.breed,
+.stats{
+  color: #606060;
+  margin: 0;
+  margin-top: 3px;
+  font-size: 15px;
+}
+
+.flw{
+  height: 32px;
+  width: 64px;
+  border-radius: 7px;
+  border: none;
+  background-color: rgb(79, 164, 234);
+  color:white;
+  margin-right: 5px;
+}
+
+.desc{
+  flex: 1;
+  
+}
+

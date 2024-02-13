@@ -1,0 +1,53 @@
+.main-container{
+  display: flex;
+  flex-direction: column;
+  border-width: 2px;
+  border:solid;
+  border-width: 1px;
+  width:450px;
+  border-radius: 7px;
+  box-shadow:  2px 2px 2px rgba(69, 66, 66, 0.942);
+  border-color: #606060;
+}
+.secondary-container{
+  display:flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  margin-top: 12px;
+  align-items: start;
+  flex:1;
+
+}
+.inbox{
+  color:#606060;
+}
+
+.profile{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 12px;
+}
+/* .mail{
+  margin: 0;
+} */
+.mail-company{
+  font-size: 18px;
+  font-weight: bold;
+}
+.mail-head{
+  font-weight: bold;
+}
+
+.mail-text{
+  color: #606060;
+}
+
+.time{
+  color: #606060;
+}
+p{
+  margin: 0px;
+  margin-bottom: 2px;
+  margin-left: 8px;
+}

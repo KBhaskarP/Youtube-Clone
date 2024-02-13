@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Exercise 14
+    </title>
+    <style>
+      body{
+        height: 3000px;
+      }
+      .a{
+        position:fixed;
+        right: 100px;
+        bottom: 20px;
+        background-color: black;
+        color: white;
+      }
+      /* p{
+        margin: 0;
+
+      } */
+
+      .b{
+        position: fixed;
+        top:0;
+        bottom: 0;
+        right:0;
+        width: 100px;
+        background-color: green;
+        color: white;
+      }
+      .c{
+        display:flex;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: black;
+        color: white;
+
+        align-items: center;
+        justify-content: center;
+
+      }
+      .overlay{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+      .container{
+        display:flex;
+        flex-direction: column;
+        background-color: white;
+        
+        width: 500px;
+        height: 150px;
+
+        border-radius: 12px;
+        padding-left: 18px;
+        padding-top: 20px;
+
+      }
+
+      .Title{
+        font-size: 34px;
+        margin-bottom: 20px;
+      }
+      .desc{
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+      .close{
+        width:100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="a">
+      <p>bottom-right</p>
+    </div>
+
+    <div class="b">
+        <p>right sidebar</p>
+    </div>
+
+    <!-- <div class="c">
+      <div>Center-all-black</div>
+    </div> -->
+
+    <div class="overlay">
+        <div class="container">
+          <div class="Title">Modal Title</div>
+          <div class="desc">This is a modal</div>
+          <button class="close">Close</button>
+        </div>
+    </div>
+  </body>
+</html>

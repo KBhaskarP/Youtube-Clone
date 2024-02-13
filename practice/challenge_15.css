@@ -1,0 +1,62 @@
+.product-container{
+  display:inline-block;
+  position: relative;
+  box-shadow: 5px 5px 5px rgb(18, 13, 13);
+}
+
+.discount{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+.add{
+  display: flex;
+  height: 100px;
+  width: 200px;
+  justify-content: center;
+  align-items: end;
+  /* background-color: rgba(240, 227, 227, 0.742); */
+  opacity: 0;
+  position: absolute;
+  bottom: 10px;
+  right:30px;
+  
+}
+
+.add-to-cart{
+  padding: 9px;
+  border: solid;
+  font-weight: 500;
+  background-color: white;
+  border-radius: 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  transition: box-shadow 0.15s;
+}
+
+
+.add-to-cart:hover{
+  box-shadow: 4px 4px 6px rgba(71, 68, 68, 0.567);
+}
+
+
+
+
+
+
+
+
+.products{
+  height:350px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.product-container:hover .add{
+  opacity: 1;
+  
+}
+

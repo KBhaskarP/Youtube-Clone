@@ -1,0 +1,57 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Exercise8</title>
+
+    <style>
+      .email,
+      .second-name,
+      .first-name{
+        border-radius: 4px;
+        background-color: white;
+        font-size: 18px;
+        height: 38px;
+        width: 150px;
+        padding-left: 8px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border-style: solid;
+        border-color:whitesmoke;
+      }
+      .email:focus,
+      .first-name:focus,
+      .second-name:focus{
+        outline: none;
+
+      }
+      .signup,
+      .email{
+        display: block;
+        margin-top: 12px;
+        width:305px;
+      }
+      .signup{
+        height:38px;
+        font-family: Arial;
+        font-weight: bold;
+        color: white;
+        background-color: rgb(26, 109, 232);
+        border-radius: 7px;
+        opacity: 0.8;
+        font-size: 15px;
+        border: none;
+      }
+      .signup:active{
+        box-shadow: 3px 3px 3px grey;
+      }
+
+    </style>
+  </head>
+  <body>
+    <input class="first-name" type="text" placeholder="First name">
+    <input class="second-name" type="text" placeholder="Second name">
+    <input class="email" type="text" placeholder="Email">
+    <button class="signup">Sign Up</button>
+
+  </body>
+</html>

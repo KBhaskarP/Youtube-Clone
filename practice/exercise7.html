@@ -1,0 +1,97 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>
+      Exercise 7
+    </title>
+
+    <style>
+      .sexy{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+
+        object-position: right;
+
+        border-radius: 500px;
+      }
+
+      .search-bar{
+        border-radius: 7px;
+        background-color: whitesmoke;
+        height: 33px;
+        width:175px;
+        font-size: 20px;
+        border-color: rgb(128, 124, 117);
+        padding-left: 16px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        border-style: solid;
+        box-shadow: 3px 3px 12px rgb(179, 164, 164);
+        border:none;
+        vertical-align: top; 
+      
+      }
+      .search-bar:focus{
+        outline: none;
+      }
+
+      .twiter-profile{
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        object-position: right;
+        border-radius: 50px;
+        margin-right: 0px;
+        vertical-align: middle;
+      }
+
+      .tweet-box{
+        vertical-align:top;
+        height: 40px;
+        padding-left: 2px;
+        background-color: white;
+        border: none;
+        margin-left: 0px;
+        border-radius: 12px;
+        font-family: sans-serif;
+        font-weight: 580;
+        /* box-shadow: 1px 2px 5px rgb(224, 214, 214); */
+
+
+      }
+      .tweet-box:focus{
+        outline: none;
+      }
+
+      .tweet-btn{
+        vertical-align: middle;
+        height: 30px;
+        width: 60px;
+        background-color: #25aafd;
+        color:white;
+        font-weight: 570;
+        border-radius: 20px;
+        border: none;
+        margin-left: 0px;
+        margin-right: 0px;
+        transition: box-shadow 0.15s;
+       
+      }
+
+      .tweet-btn:active{
+        box-shadow: 1px 2px 5px rgb(224, 214, 214);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <img class="sexy" src="thumbnails/sniper_wolf.webp"> -->
+    <input class="search-bar" type="text" placeholder="Search"><br><br>
+    <img class="twiter-profile" src="thumbnails/sniper_wolf.webp">
+    <input class="tweet-box" type="text" placeholder="Whats happening?">
+    <button class="tweet-btn">Tweet</button>
+
+
+  </body>
+
+</html>
